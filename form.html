@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body bgcolor="tealist">
+    <header>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="form.html">Form</a>
+          <a href="league.html">League table</a>
+          <a href="contact.html">contact</a>
+      </nav>
+      </header>
+      <h1>registration form</h1>
+      <form method="post" novalidate>
+          <p>
+              <label for="fn">Firstname</label>
+              <input type="text" name="fname" placeholder="eg Moses" id="fn" required>
+          </p>
+           <p>
+              <label for="ln">lastname</label>
+              <input type="text" name="lname" placeholder="eg Tuesday" id="ln">
+          </p>
+           <p>
+              <label for="ph">phone</label>
+              <input type="number" name="phone No" placeholder="eg 08165545416">
+          </p>
+           <p>
+              <label for="">age</label>
+              <input type="number" name="age" id="" min="18" max="35">
+          </p>
+           <p>
+              <label for="email">email</label>
+              <input type="email" name="email" placeholder="eg anawomoses5@gmail.com">
+          </p>
+           <p>
+              <label for="password">password</label>
+              <input type="password" name="password" placeholder="30%32sd@#90">
+          </p>
+           <p>
+              
+          <label for="dob">DOB</label>
+          <input type="date" name="DOB"> 
+          </p>
+          <p>
+             <label for="">Gender</label>
+             <input type="radio" name="gender">Male
+             <input type="radio" name="gender">Female
+          </p>
+           <p>
+            <label for="">Address</label>
+            <textarea name="address" id="" cols="50" rows="10" placeholder="enter your address"></textarea>
+          </p>
+           <p>
+             <label for="">state of origin</label>
+             <select name="" id="">
+                 <option value="" selected>select your state</option>
+                 <option value="">Kogi</option>
+             </select>
+          </p>
+           <p>
+             <label for="">color</label>
+             <input type="color" readonly>
+         </p>
+         <p>
+             <label for="">Range</label>
+             <input type="range">
+         </p>
+         <p>
+             <label for="">*month</label>
+             <input type="month" disabled>
+         </p>
+         <p>
+             <label for="">week</label>
+             <input type="week">
+         </p>
+         <p>
+             <label for="">time</label>
+             <input type="time">
+         </p>
+         <p>
+             <label for="">do you agree?</label>
+             <input type="checkbox">
+         </p>
+         <p>
+             <input type="submit">
+             <button type="reset">reset</button>
+         </p>
+      </form>
+</body>
+</html>
